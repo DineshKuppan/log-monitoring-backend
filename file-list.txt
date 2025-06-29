@@ -1,0 +1,53 @@
+# Source Files
+src/main.ts
+src/app.module.ts
+src/app.controller.ts
+src/app.service.ts
+
+# Common utilities
+src/common/decorators/metrics.decorator.ts
+src/common/interceptors/logging.interceptor.ts
+src/common/middleware/request-logger.middleware.ts
+src/common/dto/pagination.dto.ts
+
+# Configuration
+src/config/database.config.ts
+src/config/monitoring.config.ts
+src/config/app.config.ts
+
+# Logs module
+src/logs/schemas/log.schema.ts
+src/logs/dto/create-log.dto.ts
+src/logs/dto/query-logs.dto.ts
+src/logs/logs.controller.ts
+src/logs/logs.service.ts
+src/logs/logs.module.ts
+
+# Metrics module
+src/metrics/metrics.controller.ts
+src/metrics/metrics.service.ts
+src/metrics/metrics.module.ts
+
+# Health module
+src/health/health.controller.ts
+src/health/health.module.ts
+
+# Docker configurations
+docker/grafana/dashboards/log-monitoring.json
+docker/grafana/provisioning/dashboards/dashboard.yml
+docker/grafana/provisioning/datasources/datasource.yml
+docker/prometheus/prometheus.yml
+
+# Project files
+docker-compose.yml
+Dockerfile
+package.json
+tsconfig.json
+nest-cli.json
+.env
+.env.example
+.gitignore
+README.md
+.dockerignore
+.eslintrc.js
+.prettierrc
